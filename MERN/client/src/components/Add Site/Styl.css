@@ -1,0 +1,140 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:#fef9f6;
+  color: #333;
+  /* margin:180px;
+  position: relative;
+  top:12px;
+  left:130px; */
+}
+
+.input {
+  margin: 0.5em 0;
+  padding: 1em; /* increased padding */
+  font-size: 0.5em; /* increased font-size */
+  color: rgb(51, 51, 51);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 4px;
+  font-size: 25px;
+}
+table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 0px ;
+}
+
+table td {
+  border: 1px solid rgb(50, 57, 59);
+  padding: 8px;
+  text-align: left;
+  font-size: 25px;
+}
+
+table th {
+  background-color: #f8f8f8;
+  color: #333;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.add {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.add:hover {
+  background-color: #45a049;
+}
+
+.delete {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: #da190b;
+}
+
+.edit {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.edit:hover {
+  background-color: #007399;
+}
+
+.input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  transition: 0.5s;
+  outline: none;
+  height: 400px;
+  font-size: 25px;
+}
+
+.input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  font-size: 2em; /* increased font-size */
+  color: #333;
+}
+
+/* Styl.css */
+
+button.add {
+  background-color: green;
+}
+
+button.delete {
+  background-color: red;
+}
+
+button.edit {
+  background-color: blue;
+}
+
+div.entry {
+  display: flex;
+  flex-direction: column;
+}
